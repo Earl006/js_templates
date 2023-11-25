@@ -1,0 +1,12 @@
+<!-- views/admin/dashboard.handlebars -->
+
+<h2>Welcome to the Admin Dashboard</h2>
+
+{{#each pages}}
+  <div>
+    <h3>{{title}}</h3>
+    <p>{{content}}</p>
+  </div>
+{{/each}}
+
+<a href="/admin/add">Add New Page</a>

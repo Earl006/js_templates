@@ -1,0 +1,8 @@
+<!-- views/blog/home.handlebars -->
+
+{{#each pages}}
+  <div>
+    <h2><a href="/blog/{{slug}}">{{title}}</a></h2>
+    <p>{{content}}</p>
+  </div>
+{{/each}}
